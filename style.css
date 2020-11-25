@@ -75,4 +75,9 @@ nav a {
     text-align: center;
   }
 
+  #bio-image {
+    width: 20rem;
+  }
+  
+
  }
