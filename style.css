@@ -1,0 +1,78 @@
+body{
+  background-color: grey;
+}
+
+
+.navbar-custom{
+  font-size: 2rem;
+  color: whitesmoke;
+  background-color: rgb(71, 133, 130);
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color:black;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+nav a {
+  color: whitesmoke;
+}
+
+/* Selecting elements by class */
+
+/* Selecting elements by ID */
+#main-bio,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  background-color: wheat;
+}
+
+
+
+#bio-image {
+  width: 30rem;
+  
+}
+
+#aside-image {
+  width: 15rem;
+  margin-right: 10px;
+}
+
+#footer {
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    height:60px;   
+    background-color: rgb(71, 133, 130);
+    text-align: center;
+ }
+
+ @media (max-width: 800px) {
+  #footer{
+    position:relative;
+    height:30px;
+  }
+
+  #main-bio {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+ }
