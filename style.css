@@ -9,12 +9,20 @@
 
 body{
   background-color:#63687Eff;
+  margin-top: 60px;
+
 }
+
+
 
 
 .navbar-custom{
   font-size: 2rem;
   background-color: #7A4F58ff;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1;
 }
 
 h1 {
@@ -43,7 +51,7 @@ nav a {
   background-size: 100% 100%;
 }
 .comp{
-  background-color: silver;
+  background: silver;
 }
 
 .comp-h{
