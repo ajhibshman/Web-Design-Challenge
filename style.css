@@ -46,9 +46,10 @@ nav a {
 
 .viz {
   background-image: url('images/DSCN1671.jpg');
+  background-position: bottom left;
   background-repeat: no-repeat;
   background-attachment: fixed ;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 .comp{
   background: silver;
