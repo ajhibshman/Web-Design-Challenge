@@ -1,12 +1,20 @@
+/* CSS HEX 
+--blue-jeans: #00B1FFff;
+--tuscan-red: #7A4F58ff;
+--jonquil: #FFCD02ff;
+--kobe: #782900ff;
+--black-coral: #63687Eff;
+*/
+
+
 body{
-  background-color: grey;
+  background-color:#63687Eff;
 }
 
 
 .navbar-custom{
   font-size: 2rem;
-  color: whitesmoke;
-  background-color: rgb(71, 133, 130);
+  background-color: #7A4F58ff;
 }
 
 h1 {
@@ -32,6 +40,9 @@ nav a {
   background-color: silver;
 }
 
+.comp-h{
+  padding:0px;
+  margin-bottom: 5px;
 }
 
 /* Selecting elements by ID */
@@ -41,7 +52,9 @@ nav a {
 }
 
 #main-bio {
-  background-color: wheat;
+  padding: 20px;
+  margin: 20px;
+  background-color:   cadetblue;
 }
 
 
@@ -54,7 +67,8 @@ nav a {
     width: 100%;
     border-style:solid;
     border-color: black;
-    box-shadow: 10px 10px 8px black;
+    box-shadow: 10px 10px 8px #7A4F58ff;
+    background-color: cadetblue;
 }
 
 #aside-image {
@@ -64,12 +78,22 @@ nav a {
 
 #footer {
     position:fixed;
+    color:#00B1FFff;
     bottom:0;
     width: 100%;
-    height:60px;   
-    background-color: rgb(71, 133, 130);
+    height:30px;   
+    background-color: #7A4F58ff;
     text-align: center;
  }
+
+ #comp-footer {
+  color:#00B1FFff;
+  bottom:0;
+  width: 100%;
+  height:30px;   
+  background-color: #7A4F58ff;
+  text-align: center;
+}
 
  @media (max-width: 800px) {
   #footer{
@@ -91,6 +115,7 @@ nav a {
     width: 20rem;
   }
   
-  
+  h2 {
+    text-align: center;
   }
  }
