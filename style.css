@@ -57,6 +57,33 @@ nav a {
   background-color:   cadetblue;
 }
 
+#main-viz {
+  padding:15px;
+  margin:5px;
+  background: rgba(0,0,0,0.3);
+  border: 1px solid black;
+}
+
+#main-viz p {
+  margin: 5%;
+  font-weight: bold;
+  color: white;
+  opacity:1;
+}
+
+#viz-image {
+  width:100%;
+  background: rgba(255,255,255, 0.5);
+  border: 2px solid black;
+}
+
+#main-viz h1{
+  color: white;
+}
+
+#main-viz h2{
+  color:white;
+}
 
 
 #bio-image {
