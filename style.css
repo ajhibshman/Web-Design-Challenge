@@ -207,7 +207,7 @@ nav a {
   text-align: center;
 }
 
- @media (max-width: 860px) {
+ @media (max-width: 600px) {
   #footer{
     position:relative;
     height:50px;
@@ -229,5 +229,9 @@ nav a {
   
   h2 {
     text-align: center;
+  }
+
+  #viz-image{
+    width: 20rem;
   }
  }
