@@ -78,7 +78,7 @@ nav a {
 }
 
 .viz3 {
-  background-image: url('images/DSCN1801.jpg');
+  background-image: url('images/cloud.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed ;
@@ -207,7 +207,7 @@ nav a {
   text-align: center;
 }
 
- @media (max-width: 600px) {
+ @media (max-width: 800px) {
   #footer{
     position:relative;
     height:50px;
@@ -217,6 +217,10 @@ nav a {
     padding: 5px;
     margin:5px;
     text-align: center;
+  }
+
+  #main-viz{
+    margin:0%
   }
 
   h1 {
@@ -232,6 +236,6 @@ nav a {
   }
 
   #viz-image{
-    width: 20rem;
+    width: 18rem;
   }
  }
