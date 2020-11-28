@@ -13,9 +13,6 @@ body{
 
 }
 
-
-
-
 .navbar-custom{
   font-size: 2rem;
   background-color: #7A4F58ff;
@@ -80,6 +77,22 @@ nav a {
   background-size: cover;
 }
 
+.viz3 {
+  background-image: url('images/DSCN1801.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed ;
+  background-size: cover;
+}
+
+.viz4 {
+  background-image: url('images/DSCN1801.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed ;
+  background-size: cover;
+}
+
 .comp{
   background: silver;
 }
@@ -89,16 +102,36 @@ nav a {
   margin-bottom: 5px;
 }
 
+.table{
+  background-color: seashell ;
+  border: 5px solid black;
+}
+
+.table th{
+  text-align:left;
+  background-color:#00B1FFff;
+  font-size:20px ;
+  font-weight: bold;
+}
+
+
+
 /* Selecting elements by ID */
 #main-bio,
 #bio-image {
   float: left;
 }
 
+
+
 #main-bio {
   padding: 20px;
   margin: 20px;
   background-color:   cadetblue;
+}
+
+#bio-image{
+  width: 30rem;
 }
 
 #main-viz {
@@ -130,10 +163,6 @@ nav a {
   color:white;
 }
 
-
-#bio-image {
-  width: 30rem;
-}
 
 #comp-image{
     width: 100%;
@@ -167,6 +196,7 @@ nav a {
   background: rgba(0,0,0,0.6);
   border: 1px solid black;
   text-align: center;
+ }
 
  #comp-footer {
   color:#00B1FFff;
